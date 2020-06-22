@@ -1,0 +1,56 @@
+@import "../functions";
+@import "../variables";
+
+@include keyframes(background-welcome-left) {
+    0% {
+        bottom: -100vh;
+        left: -100vw;
+    }
+    100% {
+        bottom: 0;
+        left: 0;
+    }
+}
+
+@include keyframes(background-welcome-right) {
+    0% {
+        top: -100vh;
+        right: -100vw;
+    }
+    100% {
+        top: 0;
+        right: 0;
+    }
+}
+
+.section-welcome {
+    background-color: darken($white, 10%);
+    height: 100vh;
+    .background-welcome {
+        position: absolute;
+        width: 100%;
+        height: 100%;
+        overflow: hidden;
+        div {
+            position: absolute;
+            height: 100%;
+            width: 100%;
+            background-size: cover;
+            &.background-welcome-left {
+                background-image: url(../../images/section-1-left.svg);
+                @include animate(background-welcome-left, 1s, 0, 0, 1);
+            }
+            &.background-welcome-right {
+                background-image: url(../../images/section-1-right.svg);
+                @include animate(background-welcome-right, 1s, 0, 0, 1);
+            }
+        }
+    }
+    .section {
+        position: absolute;
+        z-index: 1;
+        width: 100%;
+        height: 100%;
+        top: 0;
+    }
+}

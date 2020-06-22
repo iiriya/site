@@ -1,0 +1,11 @@
+@import "../variables";
+
+.navbar {
+  .navbar-logo {
+    i {
+      color: $light;
+      font-size: $size-2;
+      line-height: $navbar-height;
+    }
+  }
+}

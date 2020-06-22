@@ -1,0 +1,32 @@
+@import "@pittica/scss-functions";
+
+@include font(iiriya);
+@include icon-family(iiriya);
+
+@include icon(iiriya, logo, "\e901");
+@include icon(iiriya, icon, "\e900");
+@include icon(iiriya, tumblr, "\27");
+@include icon(iiriya, vimeo, "\28");
+@include icon(iiriya, facebook, "\29");
+@include icon(iiriya, github, "\30");
+@include icon(iiriya, pinterest, "\31");
+@include icon(iiriya, google, "\32");
+@include icon(iiriya, linkedin, "\33");
+@include icon(iiriya, twitter, "\34");
+@include icon(iiriya, youtube, "\35");
+@include icon(iiriya, delicious, "\36");
+@include icon(iiriya, instagram, "\37");
+@include icon(iiriya, deviantart, "\38");
+@include icon(iiriya, behance, "\39");
+@include icon(iiriya, flickr, "\40");
+@include icon(iiriya, hourglass, "\41");
+@include icon(iiriya, keyboard, "\42");
+@include icon(iiriya, heart, "\43");
+@include icon(iiriya, share, "\44");
+@include icon(iiriya, rss, "\45");
+@include icon(iiriya, location, "\56");
+@include icon(iiriya, up, "\57");
+@include icon(iiriya, left, "\58");
+@include icon(iiriya, right, "\59");
+@include icon(iiriya, down, "\60");
+@include icon(iiriya, close, "\61");

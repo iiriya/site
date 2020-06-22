@@ -1,0 +1,29 @@
+@import "../variables";
+
+.footer {
+  .footer-logo {
+    i {
+      font-size: $size-1 * 2;
+    }
+  }
+  a {
+    color: $white;
+    &:hover {
+      color: $white;
+    }
+  }
+  .footer-legal {
+    li {
+      display: inline-block;
+      font-size: $size-7;
+      padding: $size-7;
+    }
+  }
+  .social-follow {
+    margin: $size-6 auto;
+    li {
+      display: inline-block;
+      padding: $size-7;
+    }
+  }
+}

@@ -1,0 +1,71 @@
+{
+  "name": "iiriya",
+  "private": true,
+  "description": "iiriya.com website.",
+  "version": "1.0.0",
+  "author": "Lucio Benini <iiriya@iiriya.com>",
+  "bugs": {
+    "url": "https://github.com/iiriya/site/issues"
+  },
+  "dependencies": {
+    "@pittica/gatsby-plugin-blog": "^1.1.4",
+    "@pittica/gatsby-plugin-seo": "^1.1.0",
+    "@pittica/scss-functions": "^1.1.0",
+    "babel-plugin-styled-components": "^1.10.6",
+    "classnames": "^2.2.6",
+    "gatsby": "^2.22.3",
+    "gatsby-cli": "^2.12.29",
+    "gatsby-image": "^2.4.5",
+    "gatsby-plugin-feed": "^2.5.2",
+    "gatsby-plugin-google-analytics": "^2.3.2",
+    "gatsby-plugin-htaccess": "^1.4.0",
+    "gatsby-plugin-iubenda-cookie-footer": "^1.1.1",
+    "gatsby-plugin-manifest": "^2.4.8",
+    "gatsby-plugin-offline": "^3.2.6",
+    "gatsby-plugin-react-helmet": "^3.3.2",
+    "gatsby-plugin-sass": "^2.3.2",
+    "gatsby-plugin-sharp": "^2.6.8",
+    "gatsby-plugin-sitemap": "^2.4.3",
+    "gatsby-plugin-styled-components": "^3.3.2",
+    "gatsby-remark-copy-linked-files": "^2.3.3",
+    "gatsby-remark-images": "^3.3.7",
+    "gatsby-remark-prismjs": "^3.5.2",
+    "gatsby-remark-responsive-iframe": "^2.4.3",
+    "gatsby-remark-smartypants": "^2.3.2",
+    "gatsby-source-filesystem": "^2.3.7",
+    "gatsby-transformer-remark": "^2.8.12",
+    "gatsby-transformer-sharp": "^2.5.3",
+    "ink": "^2.6.0",
+    "prismjs": "^1.20.0",
+    "prop-types": "^15.7.2",
+    "react": "^16.13.1",
+    "react-dom": "^16.13.1",
+    "react-helmet": "^5.2.1",
+    "react-typography": "^0.16.19",
+    "styled-components": "^5.1.0",
+    "typography": "^0.16.19"
+  },
+  "devDependencies": {
+    "bulma": "^0.8.2",
+    "node-sass": "^4.14.1",
+    "prettier": "^1.19.1"
+  },
+  "homepage": "https://iiriya.com",
+  "keywords": [
+    "gatsby"
+  ],
+  "license": "MIT",
+  "main": "n/a",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/iiriya/site.git"
+  },
+  "scripts": {
+    "build": "gatsby build",
+    "develop": "gatsby develop",
+    "format": "prettier --write \"**/*.{js,jsx,json,md}\"",
+    "start": "npm run develop",
+    "serve": "gatsby serve",
+    "test": "echo \"Write tests! -> https://gatsby.dev/unit-testing\" && exit 1"
+  }
+}

@@ -1,0 +1,28 @@
+@import "../../functions";
+@import "../../variables";
+
+.page-grid {
+  border: 1px solid $grey-darker;
+  padding: $size-1 0 0 $size-3;
+  position: relative;
+  z-index: 3;
+  section {
+    background-color: $white;
+    font-weight: $weight-bold;
+    margin-bottom: $size-2;
+  }
+  .page-grid-header {
+    margin: $size-7 auto;
+    h4 {
+      &.title {
+        margin-bottom: 0;
+        a {
+          display: block;
+          width: 100%;
+          overflow: hidden;
+          font-size: $size-4;
+        }
+      }
+    }
+  }
+}
