@@ -4,6 +4,7 @@
 ![Release](https://img.shields.io/github/v/release/iiriya/site)
 ![GatsbyJS](https://img.shields.io/github/package-json/dependency-version/iiriya/site/gatsby)
 ![React](https://img.shields.io/github/package-json/dependency-version/iiriya/site/react)
+![Build and Deploy](https://github.com/iiriya/site/workflows/Build%20and%20Deploy/badge.svg)
 
 This project contains the main enterprise [website](https://iiriya.com/) of Iiriya.
 
